@@ -10,11 +10,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-11-13',
-
-  routeRules: {
-    '/': { redirect: '/auth/login' }
-  },
-
   modules: ['@nuxt/icon'],
 })

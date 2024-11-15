@@ -1,15 +1,16 @@
-<<template>
+<template>
   <div>
     <h1>Главная страница</h1>
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+definePageMeta({
+  breadcrumb: { name: 'Главная', path: '/home' }
+})
 </script>
 
-<style>
+<style scoped>
 
-</style>>
+</style>
+

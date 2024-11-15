@@ -1,5 +1,13 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
+
+<script setup>
+import { useHead } from '#imports'
+
+useHead({
+  titleTemplate: 'Цифровые документы | %s',
+})
+</script>
